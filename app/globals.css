@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: "THICCBOI-regular";
+  src: url("/fonts/THICCCBOI-Regular.woff2");
+}
+
+@font-face {
+  font-family: "THICCBOI-semi";
+  src: url("/fonts/THICCCBOI-SemiBold.woff2");
+}
+
+@font-face {
+  font-family: "THICCBOI-bold";
+  src: url("/fonts/THICCCBOI-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/Proxima-Nova.otf");
+}
+
+@font-face {
+  font-family: "Dosis";
+  src: url("/fonts/Dosis-Regular.ttf");
+}
+@font-face {
+  font-family: "Din";
+  src: url("/fonts/DIN-Medium.ttf");
+}
+@font-face {
+  font-family: "Din Light";
+  src: url("/fonts/DIN-Light.ttf");
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.bg {
+  background-image: url("/assets/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+/* GLOBAL FONTS */
+.thiccboi-regular {
+  font-family: "THICCBOI-regular", sans-serif;
+}
+.thiccboi-bold {
+  font-family: "THICCBOI-bold", sans-serif;
+}
+.thiccboi-semi {
+  font-family: "THICCBOI-semi", sans-serif;
+}
+.proxima {
+  font-family: "Proxima Nova", sans-serif;
+}
+.dosis {
+  font-family: "Dosis", sans-serif;
+}
+.din {
+  font-family: "Din", sans-serif;
+}
+.din-light {
+  font-family: "Din Light", sans-serif;
+}
+
+/* VIDEO BACKGROUND */
+
+button {
+  transition: all 0.3s ease-in;
+}
+button:hover {
+  border-radius: 100%;
+  transition: all 0.3s ease-in;
+}
+
+
+
+.showcase
+{
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 10% 19%;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: 1;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0d0d0d;
+  opacity: 0.7;
+  z-index: 2;
+}
+.showcase, .hero-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+}
