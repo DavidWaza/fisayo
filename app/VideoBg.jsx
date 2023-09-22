@@ -24,7 +24,7 @@ const VideoBg = () => {
               Without #FODaADU, i&apos;m
             </h1>
             <p className="uppercase text-[2.3rem] md:text-[144px] w-full din font-bold text-[#B5AB99] leading-[40px] md:leading-[100px] lg:leading-[170px] mb-5 md:mb-0">
-              Fisayo Fosudo
+              Fisayo Fosudo.
             </p>
             <p className="text-white uppercase text-[1rem] md:text-[2rem] w-full mb-5 din-light">
               Visual storyteller & tech video producer
