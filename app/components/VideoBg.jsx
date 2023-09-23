@@ -47,6 +47,7 @@ const VideoBg = () => {
                 </Link>
               </button>
             </div>
+            <div className="mouse-container">
             <div className="mouse">
               <Link href="#work">
                 <Image
@@ -57,6 +58,8 @@ const VideoBg = () => {
                 />
               </Link>
             </div>
+            </div>
+            
           </div>
         </div>
       </section>

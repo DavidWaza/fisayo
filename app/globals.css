@@ -135,10 +135,15 @@ body {
   color: white;
 }
 
+.mouse-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
+  z-index: 6;
+  transform: translate(0%, 180%);
+}
+
 .mouse {
-  position: absolute;
-  top: 150%;
-  left: 45%;
   animation: jumpInfinite 1.5s infinite;
 }
 
@@ -198,12 +203,8 @@ body {
     padding: 40px;
   }
   .mouse {
-    position: absolute;
-    top: 120%;
-    left: 45%;
     height: 50px;
     width: 50px;
-    animation: jumpInfinite 1.5s infinite;
   }
   .category{
     font-size: 21px;
