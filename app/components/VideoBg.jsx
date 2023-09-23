@@ -20,10 +20,10 @@ const VideoBg = () => {
         <div className="overlay"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="w-full">
-            <h1 className=" text-[1rem] md:text-3xl text-white uppercase dosis tracking-widest text-center mb-5 md:mb-0">
+            <h1 className=" text-[1.3rem] lg:text-3xl text-white uppercase dosis tracking-widest text-center mb-5 md:mb-0">
               Without #FODaADU, i&apos;m
             </h1>
-            <p className="uppercase text-[2.3rem] md:text-[144px] w-full din font-bold text-[#B5AB99] leading-[40px] md:leading-[100px] lg:leading-[170px] mb-5 md:mb-0">
+            <p className="uppercase text-[4rem] lg:text-[144px] w-full din font-bold text-[#B5AB99] leading-[60px] md:leading-[120px] lg:leading-[170px] mb-5 md:mb-0">
               Fisayo Fosudo.
             </p>
             <p className="text-white uppercase text-[1rem] md:text-[2rem] w-full mb-5 din-light">

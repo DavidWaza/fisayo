@@ -136,11 +136,10 @@ body {
 }
 
 .mouse-container{
-  display: flex;
-  justify-content: center;
-  margin-top: 0%;
-  z-index: 6;
-  transform: translate(0%, 180%);
+  position: absolute;
+  /* transform: translate(290%, 150%); */
+  top: 150%;
+  left: 45%;
 }
 
 .mouse {
@@ -205,6 +204,11 @@ body {
     margin-top: -3%;
     border: 2px solid #ff0000;
     padding: 10px 12px;
+  }
+  .mouse-container{
+    position: absolute;
+    top: 120%;
+    left: 40%;
   }
   .mouse {
     height: 5em;
