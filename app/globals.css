@@ -186,7 +186,6 @@ body {
 
 .category {
   font-size: 2em;
-  /* font-family: 'Mooli', sans-serif; */
   font-family: "Proxima Nova", sans-serif;
   font-weight: bold;
   color: #ff0000;
@@ -197,7 +196,21 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 991px) {
+@media (max-width:500px) {
+  .category{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .btn-playlist{
+    margin-top: -3%;
+    border: 2px solid #ff0000;
+    padding: 10px 12px;
+
+
+  }
+}
+
+@media (min-width: 991px) {
   .showcase,
   .showcase header {
     padding: 40px;
@@ -207,12 +220,9 @@ body {
     width: 50px;
   }
   .category{
-    font-size: 21px;
+    font-size: 2.1em;
     display: block;
     text-align: center;
   }
-  .btn-playlist {
-    border: 2px solid #ff0000;
-    padding: 10px 12px;
-  }
+ 
 }
