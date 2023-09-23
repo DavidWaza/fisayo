@@ -138,7 +138,7 @@ body {
 .mouse-container{
   position: absolute;
   /* transform: translate(290%, 150%); */
-  top: 150%;
+  top: 130%;
   left: 45%;
 }
 
@@ -207,7 +207,7 @@ body {
   }
   .mouse-container{
     position: absolute;
-    top: 120%;
+    top: 100%;
     left: 40%;
   }
   .mouse {
