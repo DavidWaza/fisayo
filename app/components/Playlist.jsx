@@ -27,7 +27,7 @@ const Playlist = () => {
       <p className="text-[#ff0000] text-[50px] md:text-[104px] text-center thiccboi-semi">
         playlist.
       </p>
-      <div className="grid grid-cols-none md:grid-cols-none lg:grid-cols-4 gap-2 md:mt-7 px-4 md:px-[10rem]">
+      <div className="grid grid-cols-none md:grid-cols-none lg:grid-cols-4 gap-2 md:mt-7 px-4 md:px-2 lg:px-[10rem]">
         {playlists.map((playlist, index) => {
           return (
             <div key={index} className="md:mt-7 lg:mt-0">
