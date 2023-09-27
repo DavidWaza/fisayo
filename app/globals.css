@@ -135,7 +135,7 @@ body {
   color: white;
 }
 
-.mouse-container{
+.mouse-container {
   position: absolute;
   /* transform: translate(290%, 150%); */
   top: 130%;
@@ -194,18 +194,27 @@ body {
 .category:hover {
   cursor: pointer;
 }
-
-@media (max-width:500px) {
-  .category{
+.btn-playlist {
+  background-color: #f3f3f3;
+  padding: 12px 17px;
+  transition: transform 0.2s ease-in-out;
+  @apply text-[#ff0000] uppercase rounded-none proxima font-semibold flex items-center;
+}
+.btn-playlist:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+@media (max-width: 500px) {
+  .category {
     font-size: 1.5em;
     text-align: center;
   }
-  .btn-playlist{
+  .btn-playlist {
     margin-top: -3%;
     border: 2px solid #ff0000;
     padding: 10px 12px;
   }
-  .mouse-container{
+  .mouse-container {
     position: absolute;
     top: 125%;
     left: 40%;
@@ -225,11 +234,10 @@ body {
     height: 10em;
     width: 10em;
   }
- 
-  .category{
+
+  .category {
     font-size: 2.1em;
     display: block;
     text-align: center;
   }
- 
 }

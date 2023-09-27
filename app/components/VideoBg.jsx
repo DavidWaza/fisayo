@@ -30,7 +30,7 @@ const VideoBg = () => {
               Visual storyteller & tech video producer
             </p>
             <div className="flex justify-center mt-[3rem]">
-              <button className="text-white uppercase p-4 px-10 rounded-none dosis tracking-widest font-semibold bg-[#FF0000] flex items-center hover:rounded-full transform transition-transform duration-300 ease-in-out hover:opacity-80 hover:scale-110">
+              <button className="text-white uppercase p-4 px-10 rounded-none dosis tracking-widest font-semibold bg-[#FF0000] flex items-center hover:rounded-full transform transition-transform duration-300 ease-in-out hover:opacity-80 hover:scale-105">
                 <Link
                   href="https://www.youtube.com/results?search_query=fisayo+fosudo"
                   className="flex items-center"
@@ -48,18 +48,17 @@ const VideoBg = () => {
               </button>
             </div>
             <div className="mouse-container">
-            <div className="mouse">
-              <Link href="#work">
-                <Image
-                  src="/assets/mouse.svg"
-                  width={100}
-                  height={100}
-                  alt="mouse"
-                />
-              </Link>
+              <div className="mouse">
+                <Link href="#work">
+                  <Image
+                    src="/assets/mouse.svg"
+                    width={100}
+                    height={100}
+                    alt="mouse"
+                  />
+                </Link>
+              </div>
             </div>
-            </div>
-            
           </div>
         </div>
       </section>

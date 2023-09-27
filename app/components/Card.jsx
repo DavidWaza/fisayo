@@ -8,10 +8,10 @@ const Card = (props) => {
         <div class="card-image">
           <img src={props.img} alt="img" className="img" />
         </div>
-        <div className="md:flex md:justify-between mt-1 block">
+        <div className=" text-center mt-1 block">
           <div class="category"> {props.category} </div>
           <div className="flex justify-center mt-6">
-              <button className="text-[#ff0000] uppercase px-10 rounded-none proxima font-semibold bg-[#FFF] flex items-center btn-playlist">
+              <button className="btn-playlist">
                 <Link
                   href="https://www.youtube.com/results?search_query=fisayo+fosudo"
                   className="flex items-center"
